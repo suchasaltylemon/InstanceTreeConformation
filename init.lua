@@ -1,4 +1,4 @@
-local InstanceHasShape = function(instance, shape)
+local InstanceTreeConformsToShape = function(instance, shape)
 	local success = true
 	
 	-- Verify instance has children
@@ -46,4 +46,4 @@ local InstanceHasShape = function(instance, shape)
 	return success
 end
 
-return InstanceHasShape
+return InstanceTreeConformsToTree
